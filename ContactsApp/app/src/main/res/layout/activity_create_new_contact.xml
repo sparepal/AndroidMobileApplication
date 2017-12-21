@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTwitterProfileURL" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="173dp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/add_photo" />
+
+        <EditText
+            android:id="@+id/textViewSkype"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="671dp"
+            android:hint="Skype"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextYoutubeChannel"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-22dp"
+            android:layout_marginTop="586dp"
+            android:hint="Youtube Channel"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTwitterProfileURL"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-31dp"
+
+            android:layout_marginTop="714dp"
+            android:hint="Twitter Profile URL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextFacebookProfileURL"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="627dp"
+
+            android:hint="Facebook Profile URL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNickname"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-56dp"
+            android:layout_marginTop="541dp"
+
+            android:hint="Nickname"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextBirthday"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-103dp"
+            android:layout_marginTop="495dp"
+            android:editable="false"
+
+            android:hint="Birthday"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="405dp"
+
+            android:hint="Address"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextURL"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-61dp"
+            android:layout_marginTop="451dp"
+
+            android:hint="URL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="363dp"
+
+            android:hint="Email"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="320dp"
+
+            android:hint="Phone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextCompany"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="277dp"
+            android:hint="Company"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextLast"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="234dp"
+            android:hint="Last"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextFirst"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="-22dp"
+            android:layout_marginTop="191dp"
+
+            android:hint="First"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
