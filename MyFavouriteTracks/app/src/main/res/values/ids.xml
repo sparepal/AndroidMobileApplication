@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name" type="id" />
+    <item name="fav_list" type="id" />
+
+
+
+    <item name="Search" type="id">Search</item>
+    <item name="search" type="id">search</item>
+</resources>
