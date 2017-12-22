@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Group19_HW04</string>
+    <string name="Welcome">Welcome to Trivia App</string>
+    <string name="exitlabel">Exit</string>
+    <string name="startLabel">Start</string>
+    <string name="loadingLabel">Loading Trivia</string>
+    <string name="quitlabel">Quit</string>
+    <string name="nextLabel">Next</string>
+    <string name="title_activity_trivia_stats">TriviaStats</string>
+</resources>
