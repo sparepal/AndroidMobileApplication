@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomeWork_3</string>
+    <string name="MatchCases"> MatchCases </string>
+    <string name="Search">Search</string>
+    <string name="Add">Add</string>
+    <string name="text"></string>
+    <string name="Finish">Finish</string>
+    <string name="editTextstartdots" />
+    <string name="editTextbefore" />
+    <string name="editTextkey" />
+    <string name="editTextafter" />
+    <string name="editTextenddots" />
+    <string name="dots">...</string>
+</resources>
