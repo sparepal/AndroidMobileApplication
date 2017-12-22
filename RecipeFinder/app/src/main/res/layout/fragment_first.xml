@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/RL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextSingleEt2"
+            android:layout_width="297dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="18dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageViewAdd2"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018"
+            app:srcCompat="@drawable/add" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="25dp"
+            android:text="Dish: " />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:text="Add ingredients" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/first_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_above="@+id/search"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="31dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:text="Search" />
+
+        <EditText
+            android:id="@+id/editTextDish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toStartOf="@+id/imageViewAdd2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </RelativeLayout>
+</FrameLayout>
